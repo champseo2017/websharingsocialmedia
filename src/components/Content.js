@@ -27,12 +27,12 @@ export default class Content extends Component {
         
        
             <p>
-            <a class=""><MyComponent /></a><Googlelogin />
+            <a class=""><MyComponent /></a >
             <a class="btn btn-primary social-login-btn social-twitter" href="/auth/twitter"><i class="fa fa-twitter"></i></a>
             </p>
             <p>
             <a class="btn btn-primary social-login-btn social-linkedin" href="/auth/linkedin"><i class="fa fa-linkedin"></i></a>
-            <a class="btn btn-primary social-login-btn social-google" href="/auth/google"><i class="fa fa-google-plus"></i></a>
+            <Googlelogin />
          </p>
          <div class="btn-group social-login-more">
   <button type="button" class="btn btn-default dropdown-toggle btn-block" data-toggle="dropdown">
