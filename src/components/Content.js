@@ -21,7 +21,10 @@ export default class Content extends Component {
         <div class="container text-center pt-5">
         <script id="metamorph-1-start" type="text/x-placeholder"></script><script id="metamorph-21-start" type="text/x-placeholder"></script>
         
-        
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         <Form className="form-signin" data-ember-action="2">
         <h2 class="form-signin-heading">Sign in</h2>
         
@@ -53,6 +56,11 @@ export default class Content extends Component {
         </div>
 
         <div class="col-md-4 pt-5">
+          
+        <br/>
+        <br/>
+        <br/>
+        <br/>
           <h3 class="my-3">Project Description</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
           <h3 class="my-3">Project Details</h3>
