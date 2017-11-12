@@ -1,27 +1,19 @@
 import React, { Component } from 'react';
-import { GoogleLogin } from 'react-google-login-component';
+import GoogleLogin from 'react-google-login';
  
 export default class Googlelogin extends Component {
-  constructor (props, context) {
-    super(props, context);
-  }
-
-  responseGoogle (googleUser) {
-    var id_token = googleUser.getAuthResponse().id_token;
-    console.log({accessToken: id_token});
-    //anything else you want to do(save to localStorage)...
-  }
  
   render () {
- 
+    const responseGoogle = (response) => {
+        console.log(response);
+      }
       
     return (
-      <GoogleLogin socialId="254425343264-jfbkd6rp67691nphc1nb1737s5g8cjji.apps.googleusercontent.com"
-                     className="google-login"
-                     scope="profile"
-                     fetchBasicProfile={false}
-                     responseHandler={this.responseGoogle}
-                     buttonText="Login With Google"/>
+          <GoogleLogin
+    clientId="254425343264-jfbkd6rp67691nphc1nb1737s5g8cjji.apps.googleusercontent.com"
+    buttonText="Login"
+    onSuccess={responseGoogle}
+    onFailure={responseGoogle}/>
     );
   }
 }
