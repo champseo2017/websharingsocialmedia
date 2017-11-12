@@ -16,7 +16,7 @@ export default class Googlelogin extends Component {
  
       
     return (
-      <GoogleLogin socialId="254425343264-1um0ughiff125l7omn2i96f8u7vp1d94.apps.googleusercontent.com"
+      <GoogleLogin socialId="254425343264-jfbkd6rp67691nphc1nb1737s5g8cjji.apps.googleusercontent.com"
                      className="google-login"
                      scope="profile"
                      fetchBasicProfile={false}
