@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
 import MyComponent from './MyComponent';
+import Googlelogin from './Googlelogin';
 
 
 
@@ -26,7 +27,7 @@ export default class Content extends Component {
         
        
             <p>
-            <a class=""><MyComponent /></a>
+            <a class=""><MyComponent /></a><Googlelogin />
             <a class="btn btn-primary social-login-btn social-twitter" href="/auth/twitter"><i class="fa fa-twitter"></i></a>
             </p>
             <p>
