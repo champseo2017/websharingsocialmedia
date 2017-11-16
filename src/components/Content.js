@@ -28,12 +28,12 @@ export default class Content extends Component {
   
   });
 
-  onSubmit = () =>{
-
-    const errors = this.validate(this.state.data);
-    this.setState({ errors });
-  };
-
+  onSubmit = (e) =>{
+    e.preventDefault()
+    
+        const errors = this.validate(this.state.data);
+        this.setState({ errors });
+      };
   validate = (data) => {
     const errors ={};
     if(!validator.isEmail(data.email)) errors.email ="กรุณากรอก Email";
