@@ -10,7 +10,9 @@ export default class App extends Component {
     return (
       <div>
         <Menu />
+        
         <Content/>
+
         <Related/>
         <Footer/>
       
